@@ -1,0 +1,31 @@
+header .primary-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 32px;
+}
+
+.primary-navbar > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.primary-navbar > h1 {
+  font: var(--heading1);
+  color: var(--brand-color-light);
+}
+
+.secondary-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 32px;
+  border-top: 1px solid var(--stroke-color);
+  border-bottom: 1px solid var(--stroke-color);
+}
+
+.secondary-navbar > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
